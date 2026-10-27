@@ -127,7 +127,7 @@ body {
 .cart-action-btn {
   background: transparent;
   color: var(--text-dark);
-  border: 1px solid var(--border-color);
+  border: 0px;
   padding: 0.5rem 0.9rem;
   border-radius: 8px;
   font-weight: 600;
