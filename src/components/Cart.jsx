@@ -1,4 +1,3 @@
-// File: src/components/Cart.jsx
 import React from 'react';
 
 export default function Cart({ cartItems, removeFromCart, updateQuantity, onClose }) {

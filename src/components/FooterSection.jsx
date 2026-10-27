@@ -1,4 +1,3 @@
-// File: src/components/FooterSection.jsx
 import React, { useState } from "react";
 
 export default function FooterSection({ setSelectedCategory, onFilterChange }) {
