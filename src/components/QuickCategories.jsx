@@ -1,4 +1,3 @@
-// File: src/components/QuickCategories.jsx
 import React from 'react';
 
 export default function QuickCategories({ setSelectedCategory, onFilterChange }) {

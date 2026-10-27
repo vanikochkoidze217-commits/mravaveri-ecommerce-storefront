@@ -1,4 +1,3 @@
-// File: src/components/SubNavbar.jsx
 import React from 'react';
 
 export default function SubNavbar({ selectedCategory, setSelectedCategory, onFilterChange }) {

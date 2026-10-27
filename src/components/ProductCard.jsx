@@ -1,4 +1,3 @@
-// File: src/components/ProductCard.jsx
 import React from "react";
 
 export default function ProductCard({
