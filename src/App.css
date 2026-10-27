@@ -1,12 +1,11 @@
-/* File: src/App.css */
 :root {
   --primary: #2563eb;
   --primary-hover: #1d4ed8;
   --bg-main: #fcfbf9;
   --card-bg: #ffffff;
   --text-dark: #111827;
-  --text-muted: #475569; /* განახლებული კონტრასტული მუქი ნაცრისფერი */
-  --border-color: #cbd5e1; /* უფრო შესამჩნევი ბორდერი კონტრასტისთვის */
+  --text-muted: #475569;
+  --border-color: #cbd5e1;
   --hero-bg: #f3efe6;
   --hero-border: #e2dac9;
   --max-width: 1780px;
@@ -16,10 +15,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -35,7 +37,6 @@ html, body {
   overflow-x: hidden;
 }
 
-/* --- TOP BANNER & HEADER --- */
 .top-banner-notice {
   background-color: #111827;
   color: #9ca3af;
@@ -146,7 +147,6 @@ html, body {
   font-weight: bold;
 }
 
-/* --- SUB NAVIGATION --- */
 .sub-navigation {
   background-color: #fff;
   border-bottom: 1px solid var(--border-color);
@@ -174,12 +174,12 @@ html, body {
   white-space: nowrap;
 }
 
-.sub-tab.active, .sub-tab:hover {
+.sub-tab.active,
+.sub-tab:hover {
   color: var(--text-dark);
   border-bottom: 2px solid var(--primary);
 }
 
-/* --- MAIN CONTENT CONTAINER --- */
 .main-content-area {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -188,7 +188,6 @@ html, body {
   box-sizing: border-box;
 }
 
-/* --- HERO SECTION --- */
 .hero-unified-box {
   background-color: var(--hero-bg);
   border: 1px solid var(--hero-border);
@@ -264,8 +263,10 @@ html, body {
   display: flex;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
   width: 100%;
   box-sizing: border-box;
 }
@@ -341,7 +342,6 @@ html, body {
   font-weight: bold;
 }
 
-/* --- QUICK CATEGORIES --- */
 .quick-categories-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -361,7 +361,9 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: transform 0.2s, border-color 0.2s;
+  transition:
+    transform 0.2s,
+    border-color 0.2s;
 }
 
 .q-card:hover {
@@ -519,14 +521,16 @@ html, body {
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
   width: 100%;
   box-sizing: border-box;
 }
 
 .product-card-item:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
 }
 
 .card-image-box {
@@ -560,7 +564,7 @@ html, body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
 .wishlist-btn.active {
@@ -621,7 +625,9 @@ html, body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
 }
 
 .add-cart-icon-btn:hover {
@@ -651,7 +657,6 @@ html, body {
   font-weight: 600;
 }
 
-/* --- FOOTER & NEWSLETTER --- */
 .footer-combined-wrapper {
   margin-top: 4rem;
   background-color: var(--hero-bg);
@@ -742,7 +747,8 @@ html, body {
   font-size: 1.3rem;
 }
 
-.footer-col h3, .footer-col h4 {
+.footer-col h3,
+.footer-col h4 {
   color: #ffffff;
 }
 
@@ -783,7 +789,6 @@ html, body {
   cursor: pointer;
 }
 
-/* --- RESPONSIVE MEDIA QUERIES (FIXES OVERFLOW ON MOBILE & TABLET) --- */
 @media (max-width: 1024px) {
   .hero-inner-content {
     grid-template-columns: 1fr;
@@ -876,7 +881,6 @@ html, body {
   }
 }
 
-/* Cart Modal Styles */
 .cart-modal-overlay {
   position: fixed;
   top: 0;
@@ -1068,7 +1072,6 @@ html, body {
   cursor: not-allowed;
 }
 
-/* Cart Slide-in & Fade Animations */
 @keyframes fadeInOverlay {
   from {
     opacity: 0;
@@ -1112,4 +1115,3 @@ html, body {
   box-sizing: border-box;
   animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
-
