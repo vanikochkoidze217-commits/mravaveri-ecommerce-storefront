@@ -48,7 +48,6 @@ export default function FooterSection({ setSelectedCategory, onFilterChange }) {
         </div>
       </section>
 
-      {/* ქვედა Footer ზონა */}
       <footer className="footer-section">
         <div className="footer-inner-grid">
           <div className="footer-col">
