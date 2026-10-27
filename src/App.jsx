@@ -1,4 +1,3 @@
-// File: src/App.jsx
 import React, { useState, useEffect } from "react";
 import Header from "./components/Header";
 import SubNavbar from "./components/SubNavbar";
