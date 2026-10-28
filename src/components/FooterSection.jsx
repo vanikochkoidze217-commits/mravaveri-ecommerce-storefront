@@ -86,7 +86,7 @@ export default function FooterSection({ setSelectedCategory, onFilterChange }) {
         </div>
 
         <div className="footer-bottom-bar">
-          <p>© 2026 მრავავერი. ყველა უფლება დაცულია.</p>
+          <p>© 2026 მრავალო. ყველა უფლება დაცულია.</p>
           <p>Product data: Fake Store API · USD ($)</p>
           <p
             className="footer-privacy"
